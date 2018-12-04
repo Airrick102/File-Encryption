@@ -70,7 +70,7 @@ def MyFileEncrypt(filepath):
     return ct, iv, key, extension
 
 def MyFileDecrypt(ctFile, iv, key, extension):
-    #Read the contents of the file in bytes, then decrypt it.
+    #Read the contents of the file in bytes, then decrypt it..
     myFile = open(ctFile, 'rb')
     fileContent = myFile.read()
     myFile.close()
